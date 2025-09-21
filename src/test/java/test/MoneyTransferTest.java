@@ -33,7 +33,7 @@ public class MoneyTransferTest {
         secondardInfo = DataHelper.getSecondCardInfo();
         firstCardBalance = dashboardPage.getCardBalance(firstCardInfo);
         secondCardBalance = dashboardPage.getCardBalance(secondardInfo);
-        Selenide.open("http://localhost:9999");
+        //Selenide.open("http://localhost:9999");
     }
 
     @Test
